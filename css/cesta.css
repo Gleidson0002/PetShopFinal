@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(93, 173, 226);  
+}
+.card{
+    width: 70%;
+}
+
+.card-compra {
+    width: 30%;
+}
+
+.container h2{
+    color: #333;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(93, 173, 226);
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.card-item img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.info {
+    flex: 1;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.quantidade {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantidade button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.quantidade input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 0 5px;
+}
+.quantidade input:focus{
+    color: #28a745;
+}
+.preço {
+    color: #28a745;
+    font-weight: bold;
+}
+.remove {
+    background-color: transparent;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    color: #b31e1e;
+}
+.card-comprainfo {
+    margin-left: 24px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fefefe;
+    width: 300px;
+}
+.finalizar-compra{
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.finalizar-compra:hover {
+    background-color: #145a23;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.buscarcep{
+    transform: translateX(12px);
+    background-color: #fefefe;
+}
+.resultado{
+    margin: 0 auto;
+    width: 350px;
+}
+.resultado p{
+    color: rgb(61, 118, 204);
+    
+}
+.buscarcep button{
+    color: white;
+    background-color: rgb(93, 173, 226);
+    border-radius: 10px;
+}
+.buscarcep input{
+    border-radius: 10px;
+    border: 1px solid rgb(93, 173, 226);
+}
+.buscarcep label{
+    color: rgb(93, 173, 226);
+    font-size: large;
+}
+
+@media only screen and (max-width:700px){
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        margin-bottom: 300px;
+
+    } 
+    .box{
+        border: 1px solid #ddd;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+    .buscarcep h1{
+        display:none;
+    }
+    .buscarcep{
+        padding: 25px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .card-comprainfo {
+        border: 0px;
+        margin: auto;
+    }
+    .buscarcep hr{
+        display: none;
+    }
+    .buscarcep input{
+        width:100px;
+        border-radius: 10px;
+        border: 1px solid rgb(93, 173, 226);
+    }
+    .buscarcep label{
+        color: rgb(93, 173, 226);
+        font-size: large;
+    }
+    .card{
+        padding: 50px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        width: auto;
+        padding: 20px;
+    }
+    .card-item {
+      margin:auto;
+    }
+}

@@ -1,0 +1,109 @@
+
+.contatosbox {
+    background-color: rgb(93, 173, 226); 
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: auto;
+}
+
+
+.contato1 {
+    text-align: center;
+    width: 20%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border:1px solid rgb(93, 173, 226); 
+}
+
+.contato1:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.logo-contt {
+    border-radius: 50px;
+    width: 100px; 
+    height: 100px;
+    object-fit: cover; 
+    margin-bottom: 10px;
+}
+
+
+.clientes {
+    width: 60%;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cliente1 {
+    width: 33%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff; 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border:1px solid rgb(93, 173, 226); 
+}
+
+.cliente1:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.cli-imag {
+    border-radius: 70px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover; 
+    margin-bottom: 10px; 
+}
+
+.contbox {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px; 
+}
+
+
+@media (max-width: 1024px) {
+    .contato1, .clientes {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cliente1 {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .cliente1 {
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+
+    .contatosbox {
+        flex-direction: column; 
+        width: auto;
+    }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style_loja.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="nav1">
+            <a href="../index.html"><img id="logo" src="../Imagens/Pink and Black Simple Pet Shop Logo.png" alt=""></a>
+        </div> 
+            <nav>
+                <li><a href="../html/telapredutos.html"><i class="fa-brands fa-shopify"></i></a></li>
+                <li><a href="../html/login.html"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="../html/cesta.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="../html/contatos.html"><i class="fa-solid fa-phone"></i></a></li>
+                <li><a href="https://maps.app.goo.gl/5MiashEy7UdzE7JWA"><i class="fa-solid fa-location-dot"></i></a></li>
+            </nav>
+    </header>
+    <h1 class="title">Produtos</h1>
+    <div class="card">
+        <img class="imagprod" src="https://static.paodeacucar.com/img/uploads/1/765/13168765.png"
+            alt="Areia-Higiênica">
+        <div class="card-content">
+            <h3 id="prod-detalhe-prod-1">Areia Higiênica Viva Verde Grãos Finos para Gatos</h3>
+            <div class="price-prod-1">R$ 0,10</div>
+            <button  class="add-button" onclick="selecionarprod('prod-1')">Adicionar</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="imagprod"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY435Ts2AGt4JBwoR9zpBixbYzfc0mDN379A&s"
+            alt="Ração pedegree">
+        <div class="card-content">
+            <h3 id="prod-detalhe-prod-2">Ração pedegree adulto - cães</h3>
+            <div class="price-prod-2">R$ 60,90</div>
+            <button  class="add-button" onclick="selecionarprod('prod-2')">Adicionar</button>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img class="imagprod" src="https://images.tcdn.com.br/img/img_prod/587393/racao_whiskas_gatos_adultos_sabor_carne_10_1kg_95_1_20171129200614.jpg"
+            alt="ração whiskas 2">
+        <div class="card-content">
+            <h3 id="prod-detalhe-prod-3">Ração whiskas - Gatos</h3>
+            <div class="price-prod-3">R$ 74,90</div>
+            <button class="add-button" onclick="selecionarprod('prod-3')">Adicionar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img class="imagprod" src="https://www.petlove.com.br/images/products/266024/product/Ra%C3%A7%C3%A3o_Seca_PremieR_Pet_Golden_Gatos_Adultos_Carne_-_10_1_Kg_310001-3_1.jpg?1674066666"
+            alt="ração premium gato">
+        <div class="card-content">
+            <h3 id="prod-detalhe-prod-4">Ração Golden gato</h3>
+            <div class="price-prod-4">R$ 49,90</div>
+            <button class="add-button" onclick="selecionarprod('prod-4')">Adicionar</button>
+        </div>
+    </div>
+    <div class="card">
+        <img class="imagprod" src="https://cdn.awsli.com.br/600x450/3/3088/produto/109903351/abdebe5be1.jpg"
+            alt="Ração premium cão">
+        <div class="card-content">
+            <h3 id="prod-detalhe-prod-5">ração Golden cão</h3>
+            <div class="price-prod-5">R$ 69,90</div>
+            <button class="add-button" onclick="selecionarprod('prod-5')">Adicionar</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+          <h3>HappyPet</h3>
+          <p>Onde seu Pet faz a festa!</p>
+          <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 HappyPet. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+
+<script src="scripts/cesta.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.cardlogin {
+    display:grid;
+    border: 1px solid rgb(93, 173, 226);
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.cardlogin form {
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(93, 173, 226);
+    color: white;
+}
+body{
+    background-color: #f9f9f9;
+}
+input{
+    border-radius: 30px;
+    border: 1px solid rgb(93, 173, 226);
+}
+.cardlogin i{
+    margin-top: 10px;
+    font-size: 40px;
+    margin: 0 auto;
+    color:rgb(93, 173, 226);
+}
